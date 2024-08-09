@@ -7,7 +7,12 @@ function Contact() {
         <h1>LET'S PLAY!</h1>
         <p>FEEL FREE TO CONTACT ME FOR FUTURE WORK AND PARTNERSHIPS</p>
         <div className="input">
-          <form action="https://formspree.io/f/mnqekeqg" method="POST">
+          <form name="contactForm"
+        action="https://formspree.io/f/mnqekeqg"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        className="contactForm">
             <div id="inn">
               <div className="inn">
                 <label htmlFor="">First Name</label>
