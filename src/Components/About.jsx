@@ -29,7 +29,7 @@ function About() {
             </p>
           </div>
           <div className="img">
-            <img src="./assets/videoimg/my.jpg" alt="" />
+            <img src="./videoimg/my.jpg" alt="" />
           </div>
         </div>
         <div className="summ2">
