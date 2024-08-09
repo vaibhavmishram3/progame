@@ -1,23 +1,25 @@
 import React from "react";
-import Home from "./Components/Home";
-// import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
-import SecondPage from "./Components/SecondPage";
-import Git from "./Components/Git";
 import {HashRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
+
+import Nav from "./Components/Nav";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Section from "./Components/Section";
+import Portfolio from "./Components/Portfolio";
+import Footer from "./Components/footer";
 
 function App() {
   return (
     <>
       <HashRouter>
-        <Navbar />
+      <Nav />
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/second" element={<SecondPage />} />
-          <Route path="/hero" element={<Hero />} />
-          <Route path="/git" exact element={<Git />} />
+          <Route exact path="/"  element={<Section />} />
+          <Route path="/portfolio"  element={<Portfolio />} />
+          <Route path="/about"  element={<About />} />
+          <Route path="/contact" exact element={<Contact />} />
         </Routes>
+        <Footer />
       </HashRouter>
     </>
   );
