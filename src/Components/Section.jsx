@@ -6,7 +6,7 @@ function Section() {
     {
       num: "01",
       nump: "FIRST-PERSON SHOOTER",
-      img: "/videoimg/sniper1.webp 5x",
+      img: "./videoimg/sniper1.webp 5x",
       texth2: "BARLOG",
       texth3: "DESIGNER",
       p: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
@@ -14,7 +14,7 @@ function Section() {
     {
       num: "02",
       nump: "QUEST",
-      img: "/videoimg/dark.webp 5x",
+      img: "./videoimg/dark.webp 5x",
       texth2: "FLAGSHIP MOUNTAIN",
       texth3: "INDEPENDENT",
       p: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
@@ -22,7 +22,7 @@ function Section() {
     {
       num: "03",
       nump: "CASUAL GAME",
-      img: "/videoimg/bee.webp",
+      img: "./videoimg/bee.webp",
       texth2: "TOKI TOP",
       texth3: "DESIGNER",
       p: "I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.",
@@ -30,25 +30,25 @@ function Section() {
   ];
   const card = [
     {
-      img: "/videoimg/robo.webp 5x",
+      img: "./videoimg/robo.webp 5x",
       name: "ZORD",
       p: "From Master League",
     },
     {
-      img: "/videoimg/magic.webp 5x",
+      img: "./videoimg/magic.webp 5x",
       name: "THE SCARLET SORCERER",
       p: "From Flagship Mountain",
     },
     {
-      img: "/videoimg/girl.webp 5x",
+      img: "./videoimg/girl.webp 5x",
       name: "KATANNA",
       p: "From Battle of the Braves",
     },
   ];
   const video = [
-    "/videoimg/file1.mp4",
-    "/videoimg/file2.mp4",
-    "/videoimg/file3.mp4",
+    "./videoimg/file1.mp4",
+    "./videoimg/file2.mp4",
+    "./videoimg/file3.mp4",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
